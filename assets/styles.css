@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+body {
+  background-color: #f5f4e8;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+main .card {
+  height: 38rem;
+  width: 32rem;
+  border: none;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr 0.3fr 0.2fr;
+  background-color: white;
+  box-shadow: 0 0 117px gray;
+}
+main img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px 16px 0 0;
+}
+main .card__center {
+  padding: 3rem 2rem;
+}
+main .card__center span {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  background-color: orange;
+  padding: 0.5rem 0.5rem;
+  border-radius: 2rem;
+  color: white;
+}
+main .card__center h1 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+main .card__center p {
+  font-size: 1.2rem;
+}
+main .card__footer {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+  align-items: center;
+}
+main .card__footer img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 3rem;
+  justify-self: center;
+}
+main .card__footer .card__footer__user-and-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: space-around;
+}
+main .card__footer .card__footer__user-and-time h2 {
+  padding-top: 0.2rem;
+  margin: 0;
+}
+main .card__footer .card__footer__user-and-time span {
+  font-size: 0.8rem;
+  color: grey;
+}/*# sourceMappingURL=styles.css.map */

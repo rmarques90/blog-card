@@ -1,0 +1,1 @@
+### A simple blog card to study HTML+SCSS
